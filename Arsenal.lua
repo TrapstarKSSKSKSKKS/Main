@@ -1,0 +1,21 @@
+if game:IsLoaded() then
+    local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+    local notif = Notification.new("success", "Sucesso", "Script executado")
+    notif:deleteTimeout(8)
+end
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trapstar", "DarkTheme")
+local Tab = Window:NewTab("Arsenal")
+local Section = Tab:NewSection("Scritps")
+Section:NewButton("Aztup Hub", "", function()
+    getgenv().scriptKey,getgenv().websiteKey='258af3b8-e237-4754-a095-38859bc4f754','4427deb1-a145-41cf-8f3b-81df0f1660dc';loadstring(game:HttpGet('https://aztupscripts.xyz/api/v1/whitelist/getLoader?websiteScriptKey=4427deb1-a145-41cf-8f3b-81df0f1660dc'))()
+end)
+Section:NewButton("OuroHub", "", function()
+    getgenv().wl_key = "qjSS1lHEQhtS1j7a-lpE3UgMx-WPupJW2Hi0loLY14"
+    loadstring(game:HttpGet("https://ourohub.com/api/script/loader.lua?Key="..getgenv().wl_key))()
+end)
+    local Tab = Window:NewTab("Misc")
+    local Section = Tab:NewSection("Settings")
+    Section:NewKeybind("Hide Gui", "", Enum.KeyCode.LeftAlt, function()
+        Library:ToggleUI()
+    end)
