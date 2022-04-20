@@ -5,7 +5,7 @@ game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
                 game.Loaded:wait()
                 wait(5)
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarLOLOL/Script/main/Hub.lua"))()
+            loadstring(game:HttpGet("https://pastebin.com/raw/iHcj4tuk"))()
         ]])
     end
 end)
