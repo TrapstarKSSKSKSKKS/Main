@@ -6,4 +6,4 @@
  --AllStarTowerDefense
  --DemonFall
  --Arsenal
-loadstring(game:HttpGet("https://pastebin.com/raw/7rSb1Xa9"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/Hub.lua"))()
