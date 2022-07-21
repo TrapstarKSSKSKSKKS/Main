@@ -1,3 +1,5 @@
+-- BY Real Panda/KiriotHub's
+
 --Settings--
 local ESP = {
     Enabled = false,
